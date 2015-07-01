@@ -187,7 +187,7 @@
 				</div>
 				><?php */?>
 				<div class="col-md-16 pull-right">
-					<p><?php echo substr(strip_tags(get_the_content()),0, 170); ?></p>
+					<p><?php echo strip_tags(get_the_content()); ?></p>
 					<h3><?php the_title(); ?></h3>
 				</div>
 			</div>

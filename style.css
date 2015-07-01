@@ -620,7 +620,7 @@ body {
 
 }
 
-.main_video .container,.testimonials .container {
+.home .main_video .container,.home .testimonials .container {
 
   background: url("img/video_inner_bg.jpg") no-repeat;
   background-size: auto 100%;
