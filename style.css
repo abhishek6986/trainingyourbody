@@ -1523,3 +1523,57 @@ body {
 .social_icon img {
     width: 29px;
 }
+
+
+/* Video Page */
+.videos  pre { background:none; border:none; }
+.yesp .yesp-hp {
+    background:none!important;
+    clear: both;
+    height: auto!important;
+    overflow: hidden;
+    width: 100%!important;
+}
+.yesp .yesp-hp .yesp-hp-videos { width:100%!important; }
+.yesp .yesp-hp .yesp-hp-videos>div{ margin: 10px; }
+.yesp .yesp-hp .yesp-hp-videos>div:nth-child(3n+1),.yesp .yesp-hp .yesp-hp-videos>div:nth-child(3n) { margin: 10px 0; }
+
+
+.yesp .yesp-hp .yesp-hp-video {
+    cursor: pointer;
+    display: inline-block;
+    height: 168px;
+    overflow: hidden;
+    position: relative;
+    width: 300px;
+}
+.yesp .yesp-hp .yesp-hp-video .yesp-hp-overlay {
+    background: rgba(0, 0, 0, 0.75) none repeat scroll 0 0;
+    height: 168px;
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    top: -20px;
+    transition: top 0.2s ease 0s, opacity 0.2s ease 0s;
+    width: 100%;
+    z-index: 2;
+}
+.yesp .yesp-title .yesp-title-wrapper {
+    font-family: "Lato",sans-serif;
+}
+.yesp .yesp-hp .yesp-hp-video .yesp-hp-title {
+    color: #fff;
+    font-family: "Lato",sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    left: 0;
+    line-height: 16px;
+    max-height: 35px;
+    overflow: hidden;
+    padding: 15px;
+    position: absolute;
+    top: 39%;
+}
+.yesp-hp-videos {
+	text-align:center;
+}
