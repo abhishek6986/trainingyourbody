@@ -191,6 +191,14 @@ a img.aligncenter {
 }
 
 
+table, tbody, tr {
+    max-width: 100%;
+    width: 100%;
+}
+
+td {
+    padding: 1%;
+}
 
 /*------------------------------------*\
 
@@ -366,7 +374,7 @@ html,
 
 body {
 
-  font-size: 1em;
+  font-size: 0.9375em;
 
 }
 
@@ -612,10 +620,15 @@ body {
 
 /*Start Video Section here*/
 
+.main_video, .inner-page {
+
+  background-image: url("img/videos_bg.jpg"), url("img/videos_bg_reverse.jpg");
+  background-position:top center, bottom center;
+  background-repeat:repeat-x, repeat-x;
+  background-size: auto, auto;
+}
+
 .main_video {
-
-  background: url("img/videos_bg.png") repeat-x left top;
-
   border-top: 6px solid #a1a1a1;
 
 }
@@ -809,7 +822,6 @@ body {
 
 .trainer {
 
-  background: url("img/scrub_bg.jpg") repeat left top;
 
   padding: 0 0;
 
@@ -831,7 +843,7 @@ body {
 }
 
 .trainer {
-    background: rgba(0, 0, 0, 0) url("img/fitness_banner_bg_new.png") no-repeat scroll center top / auto 100%;
+    background: rgba(0, 0, 0, 0) url("img/fitness_banner_bg_new.png") no-repeat scroll center top / 100% auto;
     min-height: 320px;
 }
 .trainer .container {
@@ -893,15 +905,12 @@ body {
 
 }
 
-/*
-.testimonials .testimonial {
-
-  margin-top: 94px;
-
-  padding: 0 0;
-
+.testimonials {
+	background-image: url("img/videos_bg.jpg");
+	background-position:top center;
+	background-repeat:repeat-x;
+	background-size:auto;
 }
-*/
 
 .testimonials .testimonial h3 {
 
@@ -1081,6 +1090,14 @@ body {
 
 }
 
+.call_us {
+	background-image: url("img/videos_bg_reverse.jpg");
+	background-position:bottom center;
+	background-repeat:repeat-x;
+	background-size:auto;
+}
+
+
 .call_us .trainer_call_ul {
 
   margin-top: 19px;
@@ -1157,7 +1174,7 @@ body {
 
 }
 
-.call_us .trainer_call_ul .trainer_call_ul_left .social_icon a {
+.social_icon a {
 
   padding: 0 5px;
 
@@ -1211,11 +1228,11 @@ body {
 
 .location {
 
-  border-top: 5px solid #a1a1a1;
+  border-top: 5px solid #0F0F0F;
 
-  margin-top: 21px;
+  margin-top: 0;
 
-  background-color: #e3e3e3;
+  background-color: #2f2f2f;
 
   padding-bottom: 20px;
 
@@ -1225,9 +1242,9 @@ body {
 
   font-family: 'Lato', sans-serif;
 
-  font-size: 1.875em;
+  font-size: 1.25em;
 
-  color: #000000;
+  color: #ffffff;
 
   font-weight: bold;
 
@@ -1240,6 +1257,8 @@ body {
   margin: 0px;
 
   padding: 0px;
+  
+  width:100%;
 
 }
 
@@ -1250,17 +1269,12 @@ body {
 }
 
 .location .usefull_lnks li a {
-
-	text-transform:uppercase;
-
-  font-family: 'Lato', sans-serif;
-
-  font-size: 0.9375em;
-
-  color: #000000;
-
-  text-decoration: none;
-
+    color: #ffffff;
+    font-family: "Lato",sans-serif;
+    font-size: 14px;
+    line-height: 30px;
+    text-decoration: none;
+    text-transform: uppercase;
 }
 
 .location .usefull_lnks li a:hover {
@@ -1289,7 +1303,7 @@ body {
 
 }
 
-.location .news_letter .read_more {
+.location .news_letter input[type="submit"] {
 
   border: 1px solid #f15a29;
 
@@ -1315,7 +1329,7 @@ body {
 
 }
 
-.location .news_letter input[type="text"] {
+.location .news_letter input[type="text"],.location .news_letter input[type="email"] {
 
   font-family: 'Roboto', sans-serif;
 
@@ -1343,7 +1357,7 @@ body {
 
 .footer {
 
-  background-color: #8c8c8c;
+  background-color: #0F0F0F;
 
   padding: 10px 0;
 
