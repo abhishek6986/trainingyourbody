@@ -23,6 +23,11 @@
 .pull-left{
 	float:none !important;
 	}
+.cll_no_head{
+	  float: right !important;
+    width: 39% !important;
+	 padding-left: 0;
+	}
     .header .contact_no{
 		 min-width:270px;
 		}		
@@ -304,7 +309,7 @@ td{
     font-weight: bold;
     line-height: 37px;
     text-align: left;
-    text-indent: 52px;
+    text-indent: 56px;
 }
 .header .social_media_top {
      position: relative;

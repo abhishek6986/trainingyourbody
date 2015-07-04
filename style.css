@@ -374,7 +374,7 @@ html,
 
 body {
 
-  font-size: 0.9375em;
+  font-size: 01em;
 
 }
 
@@ -450,7 +450,7 @@ body {
 
 .header .main_menu li a {
 
-	text-transform:uppercase;
+  text-transform:uppercase;
 
   display: block;
 
@@ -458,7 +458,7 @@ body {
 
   font-size: 0.8125em;
 
-  padding:18px 28px 17px;
+  padding:18px 24px 17px;
 
   color: #FFFFFF;
 
@@ -1144,9 +1144,9 @@ body {
     color: #fff;
     display: block;
     font-family: "Lato",sans-serif;
-    font-size: 1.125em;
-    font-weight: normal;
-    letter-spacing: 3px;
+    font-size: 0.8em;
+    font-weight: bold;
+    letter-spacing: 0;
     line-height: 0;
     text-align: right;
 }
@@ -1271,7 +1271,7 @@ body {
 .location .usefull_lnks li a {
     color: #ffffff;
     font-family: "Lato",sans-serif;
-    font-size: 14px;
+    font-size: 0.9375em;
     line-height: 30px;
     text-decoration: none;
     text-transform: uppercase;
@@ -1536,9 +1536,9 @@ body {
 }
 
 .mail_to {
-    font-size: 1em !important;
-    font-weight: bold !important;
-    letter-spacing: -0.5px !important;
+    font-size: 1em;
+    font-weight: bold;
+    letter-spacing: -0.5px;
 }
 
 .mail_to:hover {
