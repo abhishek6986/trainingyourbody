@@ -843,7 +843,7 @@ body {
 }
 
 .trainer {
-    background: rgba(0, 0, 0, 0) url("img/fitness_banner_bg_new.png") no-repeat scroll center top / 100% auto;
+    background: rgba(0, 0, 0, 0) url("img/fitness_banner_bg_new.png") no-repeat scroll center top / 100% 101.5%;
     min-height: 320px;
 }
 .trainer .container {
