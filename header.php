@@ -51,7 +51,7 @@
                    	<?php if(get_option_tree( 'email_address')){?>
                    		<a href="mailto:<?php echo get_option_tree( 'email_address'); ?>" class="mail_to"><?php echo get_option_tree( 'email_address'); ?></a>
 				    <?php }else{?>
-				   		<a href="mailto:info@trianingyourbody.com" class="mail_to">info@trianingyourbody.com</a>
+				   		<a href="mailto:info@trianingyourbody.com" class="mail_to">info@trainingyourbody.com</a>
 				    <?php }?>
                    </div>
                    <div class="clearfix clearfix_mob"></div>
