@@ -187,7 +187,7 @@
 				</div>
 				><?php */?>
 				<div class="col-md-16 pull-right">
-					<p><?php echo substr(strip_tags(get_the_content()),0, 170); ?></p>
+					<p><?php echo strip_tags(get_the_content()); ?></p>
 					<h3><?php the_title(); ?></h3>
 				</div>
 			</div>
@@ -250,11 +250,11 @@
 			<h3><?php echo get_option_tree( 'phone_number'); ?></h3>
 			<a class="mail_to" href="mailto:<?php echo get_option_tree( 'email_address'); ?>"><?php echo get_option_tree( 'email_address'); ?></a>
 			<div class="social_icon"> 
-				<a href="<?php echo get_option_tree( 'facebook_link'); ?>" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/socail_icon_1.png" alt=""></a>
-				<a href="<?php echo get_option_tree( 'instagram_link'); ?>" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/socail_icon_5.png" alt=""></a>
-				<a href="<?php echo get_option_tree( 'twitter_link'); ?>" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/socail_icon_2.png" alt=""></a>
-				<a href="<?php echo get_option_tree( 'google_plus_link'); ?>" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/socail_icon_3.png" alt=""></a>
-				<a href="<?php echo get_option_tree( 'linkedin_link'); ?>" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/socail_icon_4.png" alt=""></a>
+				<a href="<?php echo get_option_tree( 'facebook_link'); ?>" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/social_icon_1.png" alt=""></a>
+				<a href="<?php echo get_option_tree( 'instagram_link'); ?>" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/social_icon_5.png" alt=""></a>
+				<a href="<?php echo get_option_tree( 'youtube_link'); ?>" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/social_icon_6.png" alt=""></a>
+				<a href="<?php echo get_option_tree( 'twitter_link'); ?>" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/social_icon_2.png" alt=""></a>
+				<a href="<?php echo get_option_tree( 'google_plus_link'); ?>" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/social_icon_3.png" alt=""></a>
 			</div>
 		</div>
 		<div class="col-md-12 trainer_call_ul_right">

@@ -23,11 +23,16 @@
 .pull-left{
 	float:none !important;
 	}
+.cll_no_head{
+	  float: right !important;
+    width: 39% !important;
+	 padding-left: 0;
+	}
     .header .contact_no{
 		 min-width:270px;
 		}		
 	.header .main_menu li a{
-		padding: 18px 9px 19px;		font-size:12px;
+		padding: 18px 13px 17px;		font-size:12px;
 		}
 	.social_media_top{
 	 clear: both;
@@ -135,6 +140,9 @@
 }		
 }
 @media (min-width: 320px) and (max-width: 767px) { 
+td{
+    display:block;
+}
 .header .navbar-header{
 	display:block;
  	}
@@ -290,9 +298,19 @@
     z-index: 99999;
 	 width: 100%;
 }	
-.header .contact_no{
-	font-size: 1.4em;
-	}
+.header .contact_no {
+    background-image: url("../img/mobile_bg.png");
+    background-position: 19px 7px;
+    background-repeat: no-repeat;
+    background-size: 25px auto;
+    color: #ffffff;
+    font-family: "latoblack";
+    font-size: 1.2em;
+    font-weight: bold;
+    line-height: 37px;
+    text-align: left;
+    text-indent: 56px;
+}
 .header .social_media_top {
      position: relative;
     right: 58px;
